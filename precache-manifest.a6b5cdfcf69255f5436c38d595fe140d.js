@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e8bdffc4ee9a5b769bb34d7267c0d6c",
+    "revision": "b1983c9e880936dd1ed5f6d8b585948f",
     "url": "/yossi/index.html"
   },
   {
-    "revision": "eab3e95e46c00fc3f956",
+    "revision": "3305f85d4917f64fe630",
     "url": "/yossi/static/css/main.aeb1c58e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yossi/static/js/2.3884fa41.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eab3e95e46c00fc3f956",
-    "url": "/yossi/static/js/main.aa5c606c.chunk.js"
+    "revision": "3305f85d4917f64fe630",
+    "url": "/yossi/static/js/main.5283769b.chunk.js"
   },
   {
     "revision": "23c1d567950d89cf71a8",
