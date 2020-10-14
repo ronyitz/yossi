@@ -1,0 +1,25 @@
+#home{
+    margin-top: 52px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc( 100vh - 52px );
+    transition:  1s linear;
+}
+
+.subdiv{
+    
+    display: inline-block;
+    width: 50%;
+    line-height: calc( 100vh - 52px );
+    height: calc( 100vh - 52px );
+    vertical-align: middle;
+    color: white;
+    /* border: 1px solid yellow; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+}
+
+#imghome{
+    border: 5px solid rgb(214, 214, 214);
+    border-radius: 2px;
+}

@@ -1,0 +1,123 @@
+#gallery{
+    margin-top: 93px;
+    background-color: rgb(32, 32, 32);
+    /* background-image: url("https://wallpaperstock.net/honeycomb-background-wallpapers_36560_1280x720.jpg"); */
+    background-repeat: no-repeat;
+    
+    padding:20px 30px;
+    align-items: center;
+    color: white;
+    
+}
+
+.subdivgallery{
+    
+    display: inline-block;
+    width: 100%;
+    line-height: calc( 100vh - 52px );
+    height: calc( 100vh - 52px );
+    vertical-align: middle;
+    color: black;
+     border: 1px solid yellow; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+#imggallery{
+    border: 5px solid rgb(214, 214, 214);
+    border-radius: 2px;
+}
+
+h1{
+    color:white;
+    float:right;
+    width:100%;
+    margin: 50px 0px 25px 0px;
+}
+
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    border: 1px solid rgb(163, 163, 163);
+    width:100%;
+  }
+  
+
+  #gallery p{
+            color:white;
+      direction: rtl;
+      font-size: 20px;
+      margin:40px;
+  }
+  
+  #gallery p a{
+      color: rgb(255, 255, 255);
+      padding: 3px 10px;
+      border:1px solid rgb(65, 65, 65);
+      background-color: rgb(44, 44, 44);
+      border-radius: 3px;
+      margin: 2px;
+  }
+
+  #gallery p a:hover{
+    color: rgb(255, 255, 255);
+    padding: 3px 10px;
+    border:1px solid rgb(65, 65, 65);
+    background-color: rgb(83, 83, 83);
+    border-radius: 3px;
+    margin: 2px;
+}
+
+#modalPicture{
+    text-align: right;
+    color: darkblue;
+    
+    
+}
+
+
+
+
+#imageRightSide{
+    padding:100px;
+
+    width: 50%;
+    height: 100%;
+    float:right;
+
+}
+
+#imageRightSide p{
+    color:black;
+    padding: 20px 0px 20px 20px;
+}
+
+#imageLeftSide{
+    padding:80px;
+    width: 50%;
+    height: 100%;
+    float:left;
+    display: flex;
+    align-items: center;
+
+    
+
+}
+
+
+#photo2221{
+    border: 2px solid rgb(56, 56, 56);
+    box-shadow: 3px 6px #bbbaba;    border-radius:15px;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    
+} 
+
+#closebutton{
+ 
+    margin-right:50%;
+    
+}

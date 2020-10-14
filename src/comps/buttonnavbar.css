@@ -1,0 +1,19 @@
+#buttonMenu{
+    border:0px;
+    padding: 0px 15px 0px 15px;
+    color: rgb(54, 54, 54);
+    background-color:#ffffff;
+    float:right;
+    height:91px;
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+
+#buttonMenu:hover{
+    background-color:#c8c8c8;
+    color:#160abb;
+
+}
+
+

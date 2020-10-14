@@ -1,0 +1,33 @@
+#navbar{
+    background-color:#ffffff;
+    color: white;
+    height: 93px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    border-bottom: 2.1px solid rgb(0, 0, 0);
+    
+}
+
+#facebook{
+    margin:25px;
+    width:43px;
+    height:43px;
+}
+
+#facebutton{
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:43px;
+    height:43px;
+    border: 0px;
+    background-color: white;
+}
+
+#logoYossi{
+    height: 91px;
+    width: 91px;
+    padding: 15px;
+    float:right;
+}

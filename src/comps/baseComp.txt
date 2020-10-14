@@ -1,0 +1,14 @@
+import React,{Component} from 'react';
+
+class Counter extends Component{
+    myDate = "l";
+    render(){
+        return(
+
+        
+        
+        )  
+    }
+}
+
+export default Counter;
