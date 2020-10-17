@@ -10,6 +10,36 @@
     
 }
 
+#gallery button{
+    color: rgb(255, 255, 255);
+    padding: 3px 10px;
+    border:1px solid rgb(65, 65, 65);
+    background-color: rgb(44, 44, 44);
+    border-radius: 3px;
+    margin: 2px;
+}
+
+#gallery button{
+    color: rgb(255, 255, 255);
+    padding: 3px 10px;
+    border:1px solid rgb(65, 65, 65);
+    background-color: rgb(44, 44, 44);
+    border-radius: 3px;
+    margin: 2px;
+}
+
+
+#gallery button:hover{
+
+color: rgb(255, 255, 255);
+padding: 3px 10px;
+border:1px solid rgb(65, 65, 65);
+background-color: rgb(83, 83, 83);
+border-radius: 3px;
+margin: 2px;
+}
+
+
 .subdivgallery{
     
     display: inline-block;
@@ -52,23 +82,7 @@ div.scrollmenu {
       margin:40px;
   }
   
-  #gallery p a{
-      color: rgb(255, 255, 255);
-      padding: 3px 10px;
-      border:1px solid rgb(65, 65, 65);
-      background-color: rgb(44, 44, 44);
-      border-radius: 3px;
-      margin: 2px;
-  }
 
-  #gallery p a:hover{
-    color: rgb(255, 255, 255);
-    padding: 3px 10px;
-    border:1px solid rgb(65, 65, 65);
-    background-color: rgb(83, 83, 83);
-    border-radius: 3px;
-    margin: 2px;
-}
 
 #modalPicture{
     text-align: right;
@@ -82,11 +96,9 @@ div.scrollmenu {
 
 #imageRightSide{
     padding:100px;
-
-    width: 50%;
-    height: 100%;
-    float:right;
-
+    width: calc(50% - 50px);
+    height: 90%;
+    float:left;
 }
 
 #imageRightSide p{
@@ -94,18 +106,35 @@ div.scrollmenu {
     padding: 20px 0px 20px 20px;
 }
 
-#imageLeftSide{
-    padding:80px;
-    width: 50%;
-    height: 100%;
+#leftButtonDiv{
+    width: 50px;
+    height: 90%;
     float:left;
     display: flex;
     align-items: center;
-
-    
-
 }
 
+#rightButtonDiv{
+    width: 50px;
+    height: 90%;
+    float:left;
+    display: flex;
+    align-items: center;
+}
+
+#imageLeftSide{
+    padding: 50px;
+    width: calc(50% - 50px);
+    height: 90%;
+    float:left;
+    display: flex;
+    align-items: center;
+}
+
+
+#divCloseButton{
+    width:100%;
+}
 
 #photo2221{
     border: 2px solid rgb(56, 56, 56);
@@ -116,8 +145,26 @@ div.scrollmenu {
     
 } 
 
-#closebutton{
- 
-    margin-right:50%;
+#closebutton, #nextButton, #prevButton{
+    margin:10px;
+    color: white;
+    padding:12px 15px;
     
 }
+
+
+.ReactModal__Overlay {
+    opacity: 0;
+    transform: translateX(0px);
+    transition: all ease-in 300ms;
+  }
+  
+  .ReactModal__Overlay--after-open {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  
+  .ReactModal__Overlay--before-close {
+    opacity: 0;
+    transform: translateX(0px);
+  }

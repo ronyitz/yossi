@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
-import './picturegallery.css';
+import './picturegallery1.css';
+
 
 class PictureGallery extends Component{
 
@@ -7,13 +8,15 @@ class PictureGallery extends Component{
         valueImage: this.props.data,
         nameImage: this.props.namePicture,
         descImage: this.props.descPicture,
+        id: this.props.id,
+        tags: this.props.tags,
     };
 
     
     render(){
         return(
-    <div className="divphoto" onClick={() => this.props.openImage(this.state.nameImage, this.state.descImage,this.state.valueImage)}>
-    <img className="photo" src={this.state.valueImage} >
+    <div tags={this.state.tags} id={this.state.id} className="divphoto" onClick={() => this.props.openImage(this.state.nameImage, this.state.descImage,this.state.valueImage, this.state.id)}>
+    <img className="photo" src={this.state.valueImage}  >
               </img>
               <div  className="descr">{this.state.nameImage}</div>
 

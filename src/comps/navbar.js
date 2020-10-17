@@ -16,7 +16,7 @@ class Navbar extends Component{
     render(){
         return(
             <div id="navbar">
-                <img id="logoYossi" src={logo}/>
+                <img id="logoYossi" alt="" src={logo}/>
                 <ButtonNavbar trigger={(i) => this.update(i)} valueButton="בית"/>
                 <ButtonNavbar trigger={(i) => this.update(i)} valueButton="על עצמי"/>
                 <ButtonNavbar trigger={(i) => this.update(i)} valueButton="גלריה"/>
