@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/yossi/precache-manifest.98454e0cea4dc3f401064b95c9aa54c9.js"
+  "/yossi/precache-manifest.59a75282d25e45170c236d32c64c0c56.js"
 );
 
 self.addEventListener('message', (event) => {
