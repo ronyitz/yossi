@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/yossi/static/css/main.83ec3e40.chunk.css",
-    "main.js": "/yossi/static/js/main.61c1a0f6.chunk.js",
-    "main.js.map": "/yossi/static/js/main.61c1a0f6.chunk.js.map",
+    "main.js": "/yossi/static/js/main.c6eb62c6.chunk.js",
+    "main.js.map": "/yossi/static/js/main.c6eb62c6.chunk.js.map",
     "runtime-main.js": "/yossi/static/js/runtime-main.d4cc7dea.js",
     "runtime-main.js.map": "/yossi/static/js/runtime-main.d4cc7dea.js.map",
     "static/js/2.a7da1ffc.chunk.js": "/yossi/static/js/2.a7da1ffc.chunk.js",
     "static/js/2.a7da1ffc.chunk.js.map": "/yossi/static/js/2.a7da1ffc.chunk.js.map",
     "index.html": "/yossi/index.html",
-    "precache-manifest.f7d543ced4e13df97ba200d7a485d57b.js": "/yossi/precache-manifest.f7d543ced4e13df97ba200d7a485d57b.js",
+    "precache-manifest.59a75282d25e45170c236d32c64c0c56.js": "/yossi/precache-manifest.59a75282d25e45170c236d32c64c0c56.js",
     "service-worker.js": "/yossi/service-worker.js",
     "static/css/main.83ec3e40.chunk.css.map": "/yossi/static/css/main.83ec3e40.chunk.css.map",
     "static/js/2.a7da1ffc.chunk.js.LICENSE.txt": "/yossi/static/js/2.a7da1ffc.chunk.js.LICENSE.txt",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.d4cc7dea.js",
     "static/js/2.a7da1ffc.chunk.js",
     "static/css/main.83ec3e40.chunk.css",
-    "static/js/main.61c1a0f6.chunk.js"
+    "static/js/main.c6eb62c6.chunk.js"
   ]
 }
